@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let simOuNao = prompt('Voce deseja sair do programa, sim ou Não. Se sim, digite Sair.').toLowerCase();
+
+
+
+if(simOuNao == 'sair'){
+    alert('Até mais.')
+
+}else if(simOuNao == 'não'){
+    while(simOuNao != 'sair'){
+        alert('Entendi.')
+        simOuNao = prompt('E agora deseja sair? Se sim, Digite Sair.').toLowerCase()
+    }
+}else{
+    alert('[ERRO] Palavra incorreta.')
+}
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
